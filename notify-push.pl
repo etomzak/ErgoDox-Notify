@@ -11,8 +11,7 @@ use strict;
 use v5.12;
 
 # Set this to your ErgoDox serial port (e.g., /dev/ttyACM0, etc.)
-#my $TTY = "DEFINE-ME";
-my $TTY = "/dev/ttyS2";
+my $TTY = "DEFINE-ME";
 
 use Net::DBus;
 use Net::DBus::Reactor;
